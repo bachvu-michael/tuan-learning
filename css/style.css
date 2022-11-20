@@ -1,0 +1,122 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.our-plane {}
+
+.our-plane .title-part {
+    text-align: center;
+}
+
+.our-plane .title-part>h2 {
+    font-size: 40px;
+    color: #252525;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.our-plane .title-part>h2::before {
+    position: relative;
+    content: "";
+    background: url(../images/ring.png);
+    width: 55px;
+    height: 51px;
+    top: -8px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.our-plane .title-part>p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #191919;
+    padding-top: 13px;
+    margin: 0;
+}
+
+
+.our-plane .card-container {
+    display: flex;
+}
+
+.our-plane .card-container .card {
+    width: 500px;
+    margin: 0 10px;
+}
+
+.our-plane .card-container .card .image {
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.our-plane .card-container .card .image img {
+    width: 100%;
+}
+
+.our-plane .card-container .card .content {
+    background-color: #f8d98f;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.our-plane .card-container .card .content h3 {
+    margin: 0;
+    color: #252525;
+    margin-bottom: 12px;
+}
+
+.our-plane .card-container .card .content p {
+    margin: 0;
+    color: white;
+}
+
+.our-plane .card-container .card .content .button-card {
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.our-plane .card-container .card .content .button-card button{
+    font-size: 17px;
+    background-color: #413c31;
+    color: #fff;
+    padding: 6px 0px;
+    width: 100%;
+    max-width: 157px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 43px;
+    transition: ease-in all 0.5s;
+    visibility: hidden;
+    /* display: none; */
+}
+
+.our-plane .card-container .card .content:hover .button-card button{
+    background-color: red;
+    visibility: inherit;
+}
+
+.our-plane .card-container .card .content:hover h3{
+    color: white;
+}
+
+
